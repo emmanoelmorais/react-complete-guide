@@ -3,7 +3,7 @@ import classes from './App.css';
 import Persons from '../components/Persons/Persons';
 import Cockpit from '../components/Cockpit/Cockpit';
 
-import Aux from '../hoc/Aux';
+import Aux from '../hoc/Aux_';
 import withClass from '../hoc/withClass';
 
 export const AuthContext = React.createContext(false);
